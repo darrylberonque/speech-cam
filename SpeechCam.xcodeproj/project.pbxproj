@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580A74A9204EE2570023C676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A74A8204EE2570023C676 /* AppDelegate.swift */; };
+		580A74AB204EE2570023C676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A74AA204EE2570023C676 /* ViewController.swift */; };
+		580A74AE204EE2570023C676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580A74AC204EE2570023C676 /* Main.storyboard */; };
+		580A74B0204EE2570023C676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580A74AF204EE2570023C676 /* Assets.xcassets */; };
+		580A74B3204EE2570023C676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580A74B1204EE2570023C676 /* LaunchScreen.storyboard */; };
+		580A74BE204EE2570023C676 /* SpeechCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A74BD204EE2570023C676 /* SpeechCamTests.swift */; };
+		580A74C9204EE2570023C676 /* SpeechCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A74C8204EE2570023C676 /* SpeechCamUITests.swift */; };
+		580A74D7204F6DE60023C676 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A74D6204F6DE50023C676 /* UIButtonExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		580A74BA204EE2570023C676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580A749D204EE2570023C676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580A74A4204EE2570023C676;
+			remoteInfo = SpeechCam;
+		};
+		580A74C5204EE2570023C676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580A749D204EE2570023C676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580A74A4204EE2570023C676;
+			remoteInfo = SpeechCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		580A74A5204EE2570023C676 /* SpeechCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		580A74A8204EE2570023C676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		580A74AA204EE2570023C676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		580A74AD204EE2570023C676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		580A74AF204EE2570023C676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		580A74B2204EE2570023C676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		580A74B4204EE2570023C676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580A74B9204EE2570023C676 /* SpeechCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580A74BD204EE2570023C676 /* SpeechCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCamTests.swift; sourceTree = "<group>"; };
+		580A74BF204EE2570023C676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580A74C4204EE2570023C676 /* SpeechCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580A74C8204EE2570023C676 /* SpeechCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCamUITests.swift; sourceTree = "<group>"; };
+		580A74CA204EE2570023C676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580A74D6204F6DE50023C676 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580A74A2204EE2570023C676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A74B6204EE2570023C676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A74C1204EE2570023C676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580A749C204EE2570023C676 = {
+			isa = PBXGroup;
+			children = (
+				580A74A7204EE2570023C676 /* SpeechCam */,
+				580A74BC204EE2570023C676 /* SpeechCamTests */,
+				580A74C7204EE2570023C676 /* SpeechCamUITests */,
+				580A74A6204EE2570023C676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		580A74A6204EE2570023C676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580A74A5204EE2570023C676 /* SpeechCam.app */,
+				580A74B9204EE2570023C676 /* SpeechCamTests.xctest */,
+				580A74C4204EE2570023C676 /* SpeechCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		580A74A7204EE2570023C676 /* SpeechCam */ = {
+			isa = PBXGroup;
+			children = (
+				580A74A8204EE2570023C676 /* AppDelegate.swift */,
+				580A74AA204EE2570023C676 /* ViewController.swift */,
+				580A74AC204EE2570023C676 /* Main.storyboard */,
+				580A74D6204F6DE50023C676 /* UIButtonExtension.swift */,
+				580A74AF204EE2570023C676 /* Assets.xcassets */,
+				580A74B1204EE2570023C676 /* LaunchScreen.storyboard */,
+				580A74B4204EE2570023C676 /* Info.plist */,
+			);
+			path = SpeechCam;
+			sourceTree = "<group>";
+		};
+		580A74BC204EE2570023C676 /* SpeechCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				580A74BD204EE2570023C676 /* SpeechCamTests.swift */,
+				580A74BF204EE2570023C676 /* Info.plist */,
+			);
+			path = SpeechCamTests;
+			sourceTree = "<group>";
+		};
+		580A74C7204EE2570023C676 /* SpeechCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				580A74C8204EE2570023C676 /* SpeechCamUITests.swift */,
+				580A74CA204EE2570023C676 /* Info.plist */,
+			);
+			path = SpeechCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580A74A4204EE2570023C676 /* SpeechCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580A74CD204EE2570023C676 /* Build configuration list for PBXNativeTarget "SpeechCam" */;
+			buildPhases = (
+				580A74A1204EE2570023C676 /* Sources */,
+				580A74A2204EE2570023C676 /* Frameworks */,
+				580A74A3204EE2570023C676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechCam;
+			productName = SpeechCam;
+			productReference = 580A74A5204EE2570023C676 /* SpeechCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		580A74B8204EE2570023C676 /* SpeechCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580A74D0204EE2570023C676 /* Build configuration list for PBXNativeTarget "SpeechCamTests" */;
+			buildPhases = (
+				580A74B5204EE2570023C676 /* Sources */,
+				580A74B6204EE2570023C676 /* Frameworks */,
+				580A74B7204EE2570023C676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580A74BB204EE2570023C676 /* PBXTargetDependency */,
+			);
+			name = SpeechCamTests;
+			productName = SpeechCamTests;
+			productReference = 580A74B9204EE2570023C676 /* SpeechCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		580A74C3204EE2570023C676 /* SpeechCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580A74D3204EE2570023C676 /* Build configuration list for PBXNativeTarget "SpeechCamUITests" */;
+			buildPhases = (
+				580A74C0204EE2570023C676 /* Sources */,
+				580A74C1204EE2570023C676 /* Frameworks */,
+				580A74C2204EE2570023C676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580A74C6204EE2570023C676 /* PBXTargetDependency */,
+			);
+			name = SpeechCamUITests;
+			productName = SpeechCamUITests;
+			productReference = 580A74C4204EE2570023C676 /* SpeechCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580A749D204EE2570023C676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Darryl Beronque";
+				TargetAttributes = {
+					580A74A4204EE2570023C676 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					580A74B8204EE2570023C676 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 580A74A4204EE2570023C676;
+					};
+					580A74C3204EE2570023C676 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 580A74A4204EE2570023C676;
+					};
+				};
+			};
+			buildConfigurationList = 580A74A0204EE2570023C676 /* Build configuration list for PBXProject "SpeechCam" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 580A749C204EE2570023C676;
+			productRefGroup = 580A74A6204EE2570023C676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				580A74A4204EE2570023C676 /* SpeechCam */,
+				580A74B8204EE2570023C676 /* SpeechCamTests */,
+				580A74C3204EE2570023C676 /* SpeechCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580A74A3204EE2570023C676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580A74B3204EE2570023C676 /* LaunchScreen.storyboard in Resources */,
+				580A74B0204EE2570023C676 /* Assets.xcassets in Resources */,
+				580A74AE204EE2570023C676 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A74B7204EE2570023C676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A74C2204EE2570023C676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580A74A1204EE2570023C676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580A74AB204EE2570023C676 /* ViewController.swift in Sources */,
+				580A74A9204EE2570023C676 /* AppDelegate.swift in Sources */,
+				580A74D7204F6DE60023C676 /* UIButtonExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A74B5204EE2570023C676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580A74BE204EE2570023C676 /* SpeechCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A74C0204EE2570023C676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580A74C9204EE2570023C676 /* SpeechCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580A74BB204EE2570023C676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580A74A4204EE2570023C676 /* SpeechCam */;
+			targetProxy = 580A74BA204EE2570023C676 /* PBXContainerItemProxy */;
+		};
+		580A74C6204EE2570023C676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580A74A4204EE2570023C676 /* SpeechCam */;
+			targetProxy = 580A74C5204EE2570023C676 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		580A74AC204EE2570023C676 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580A74AD204EE2570023C676 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		580A74B1204EE2570023C676 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580A74B2204EE2570023C676 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		580A74CB204EE2570023C676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		580A74CC204EE2570023C676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		580A74CE204EE2570023C676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y33QZD85U7;
+				INFOPLIST_FILE = SpeechCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrylberonque.SpeechCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		580A74CF204EE2570023C676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y33QZD85U7;
+				INFOPLIST_FILE = SpeechCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrylberonque.SpeechCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		580A74D1204EE2570023C676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y33QZD85U7;
+				INFOPLIST_FILE = SpeechCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrylberonque.SpeechCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechCam.app/SpeechCam";
+			};
+			name = Debug;
+		};
+		580A74D2204EE2570023C676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y33QZD85U7;
+				INFOPLIST_FILE = SpeechCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrylberonque.SpeechCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechCam.app/SpeechCam";
+			};
+			name = Release;
+		};
+		580A74D4204EE2570023C676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y33QZD85U7;
+				INFOPLIST_FILE = SpeechCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrylberonque.SpeechCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeechCam;
+			};
+			name = Debug;
+		};
+		580A74D5204EE2570023C676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y33QZD85U7;
+				INFOPLIST_FILE = SpeechCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrylberonque.SpeechCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeechCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580A74A0204EE2570023C676 /* Build configuration list for PBXProject "SpeechCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580A74CB204EE2570023C676 /* Debug */,
+				580A74CC204EE2570023C676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580A74CD204EE2570023C676 /* Build configuration list for PBXNativeTarget "SpeechCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580A74CE204EE2570023C676 /* Debug */,
+				580A74CF204EE2570023C676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580A74D0204EE2570023C676 /* Build configuration list for PBXNativeTarget "SpeechCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580A74D1204EE2570023C676 /* Debug */,
+				580A74D2204EE2570023C676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580A74D3204EE2570023C676 /* Build configuration list for PBXNativeTarget "SpeechCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580A74D4204EE2570023C676 /* Debug */,
+				580A74D5204EE2570023C676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 580A749D204EE2570023C676 /* Project object */;
+}
